@@ -7,9 +7,10 @@ def my_each(words)
     end
 end
 
- words = ['hi', 'hello', 'bye', 'goodbye']  
-my_each([words]) do |word|
-  while 1 < words.length 
-    return "#{word}
+['hi', 'hello', 'bye', 'goodbye']  
+
+my_each(['hi', 'hello', 'bye', 'goodbye']) do |word|
+  if i < words.length
+    return "#{word}"
   end
 end
