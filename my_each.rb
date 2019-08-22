@@ -10,7 +10,9 @@ end
 words = ["hi", "hello", "bye", "goodbye"]
 
 my_each([words]) do |word|
-  if i < words.length
+i = 0
+   while i < words.legnth
     return "word"
+    i += 1
   end
 end
