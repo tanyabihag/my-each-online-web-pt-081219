@@ -7,9 +7,10 @@ def my_each(words)
     end
 end
 
-["hi", "hello", "bye", "goodbye"]
+words = ["hi", "hello", "bye", "goodbye"]
 
-my_each(["hi", "hello", "bye", "goodbye"]) do |word|
-    return "#{word}"
+my_each([words]) do |word|
+  if word < words.legnth
+    return "word"
   end
 end
