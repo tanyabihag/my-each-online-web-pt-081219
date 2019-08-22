@@ -3,7 +3,6 @@ def my_each(words)
     i = 1 
     
     while i < words.legnth
-      yield(words[1])
       i += 1
     end
 end
