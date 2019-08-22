@@ -10,7 +10,7 @@ end
 words = ["hi", "hello", "bye", "goodbye"]
 
 my_each([words]) do |word|
-  if word < words.legnth
+  if i < words.length
     return "word"
   end
 end
