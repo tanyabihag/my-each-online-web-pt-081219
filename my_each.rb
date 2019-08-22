@@ -7,7 +7,7 @@ def my_each(words)
     end
 end
 
-words = ["hi", "hello", "bye", "goodbye"]
+["hi", "hello", "bye", "goodbye"]
 
 my_each(["hi", "hello", "bye", "goodbye"]) do |word|
 i = 0
