@@ -10,5 +10,5 @@ end
 ["hi", "hello", "bye", "goodbye"]
 
 my_each(["hi", "hello", "bye", "goodbye"]) do |word|
-    return "#{word}
+    return "#{word}"
   end
