@@ -6,13 +6,3 @@ def my_each(words)
       i += 1
     end
 end
-
-["hi", "hello", "bye", "goodbye"]
-
-my_each(["hi", "hello", "bye", "goodbye"]) do |word|
-i = 0
-   while i < words.legnth
-    return "word"
-    i += 1
-  end
-end
