@@ -8,3 +8,8 @@ def my_each(words)
 end
 
  words = ['hi', 'hello', 'bye', 'goodbye']  
+my_each([words]) do |word|
+  while 1 < words.length 
+    return "#{word}
+  end
+end
