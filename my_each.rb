@@ -10,7 +10,7 @@ end
 ['hi', 'hello', 'bye', 'goodbye']  
 
 my_each(['hi', 'hello', 'bye', 'goodbye']) do |word|
-  if i < words.length
+  if word < words.length
     return "#{word}"
   end
 end
