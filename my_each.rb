@@ -7,3 +7,5 @@ def my_each(words)
       i += 1
     end
 end
+
+words = ['hi', 'hello', 'bye', 'goodbye']
