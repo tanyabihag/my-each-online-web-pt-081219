@@ -9,7 +9,7 @@ end
 
 words = ["hi", "hello", "bye", "goodbye"]
 
-my_each([words]) do |word|
+my_each(["hi", "hello", "bye", "goodbye"]) do |word|
 i = 0
    while i < words.legnth
     return "word"
