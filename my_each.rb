@@ -8,5 +8,3 @@ def my_each(words)
 end
 
  words = ['hi', 'hello', 'bye', 'goodbye']  
- my_each([words]) do |word|
-   return
