@@ -1,4 +1,4 @@
-def my_each(words)
+def my_each(array, words)
     i = 0 
     
     while i < array.length
