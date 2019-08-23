@@ -9,5 +9,5 @@ end
 
 words = ["hi", "hello", "bye", "goodbye"]
 my_each(words) do |i|
-  puts i
+  return i
 end
