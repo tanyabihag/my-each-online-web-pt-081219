@@ -10,7 +10,7 @@ end
 words = ["hi", "hello", "bye", "goodbye"]
 tas = ['arel', 'jon', 'logan', 'spencer']
 my_each(words) do |i|
-  return i
+  return i.compact
 end
 
 
