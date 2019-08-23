@@ -13,6 +13,6 @@ my_each(words) do |i|
 end
 
 tas = ['arel', 'jon', 'logan', 'spencer']
-my_each(tas) do |ta|
-  puts ta
+my_each(tas) do |i|
+  return i
 end
