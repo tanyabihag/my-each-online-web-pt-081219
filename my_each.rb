@@ -9,6 +9,7 @@ end
 
 ["hi", "hello", "bye", "goodbye"]
 
- my_each(words) do |word|
+ my_each([words]) do |word|
       puts word
     end
+end
