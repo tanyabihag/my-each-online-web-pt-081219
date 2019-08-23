@@ -7,9 +7,8 @@ def my_each(words)
     end
 end
 
-["hi", "hello", "bye", "goodbye"]
+words = ["hi", "hello", "bye", "goodbye"]
 
- my_each([words]) do |word|
-      puts word
-    end
+ my_each([words]) do |i|
+      puts i
 end
