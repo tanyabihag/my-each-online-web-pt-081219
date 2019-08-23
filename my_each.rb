@@ -8,11 +8,9 @@ def my_each(array)
 end
 
 words = ["hi", "hello", "bye", "goodbye"]
+tas = ['arel', 'jon', 'logan', 'spencer']
 my_each(words) do |i|
   return i
 end
 
-tas = ['arel', 'jon', 'logan', 'spencer']
-my_each(tas) do |i|
-  return i
-end
+
