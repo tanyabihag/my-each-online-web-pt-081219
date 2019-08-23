@@ -9,8 +9,6 @@ end
 
 ["hi", "hello", "bye", "goodbye"]
 
-my_each(["hi", "hello", "bye", "goodbye"]) do |word|
-  if words.legnth()
-    puts "#{word}"
-  end
-end 
+ my_each(words) do |word|
+      puts word
+    end
